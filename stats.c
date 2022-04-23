@@ -120,8 +120,7 @@ int main() {
   print_statistics(median, mean, maximum, minimum);
   print_array(test);
   
-
-
+  return 0;
 /* Add other Implementation File Code Here */
 
 

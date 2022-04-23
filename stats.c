@@ -80,10 +80,10 @@ int main() {
     int i = 0;
     unsigned char median;
     if (SIZE % 2 == 1){
-      median = sorted_test[(SIZE / 2) - 1];
+      median = sorted_test[(SIZE / 2)];
     }
     else {
-      median = sorted_test[(SIZE / 2)] + sorted_test[(SIZE / 2) + 1];
+      median = (sorted_test[(SIZE / 2)] + sorted_test[(SIZE / 2) - 1]) / 2;
     }
     return median;
   }
